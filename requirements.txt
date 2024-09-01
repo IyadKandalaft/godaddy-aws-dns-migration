@@ -1,0 +1,5 @@
+boto3
+godaddypy==2.5.*
+pandas==2.*.*
+pyyaml
+configloader
