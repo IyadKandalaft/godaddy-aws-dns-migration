@@ -38,9 +38,9 @@ except Exception as e:
 DOMAIN_LIST_FILE = opts.domain_list
 OUTPUT_FILE = opts.output
 
-# GoDaddy API credentials
-GD_API_KEY = '2ykzMaNTJY_6rHcbkY1emwxm2XmU6heUU'
-GD_API_SECRET = 'UoJhq2DTtDdAcQYorCifBv'
+# Read GoDaddy API credentials from environment variables
+GD_API_KEY = os.environ['GD_API_KEY']
+GD_API_SECRET = os.environ['GD_API_SECRET']
 
 
 class GoDaddyClient:
